@@ -1,10 +1,10 @@
 # SourceGeneratorsShowcase
-This project serves as a basic introduction to how "Source Generators" work.
+This project serves as a basic introduction on how "Source Generators" work and how to set them up.
 
 More specifically [Incremental Generators](https://github.com/dotnet/roslyn/blob/main/docs/features/incremental-generators.md) which serve as the follow up of the original [Source Generators](https://github.com/dotnet/roslyn/blob/main/docs/features/source-generators.md) that were introduced.
 
 To inspect the generated code you can open the Analyzers of the specific project.
-![Generated file](image.png)
+![Generated file](generated_code.png)
 
 To debug the source generator you can add the following inside the generator and then build the project.
 ```
